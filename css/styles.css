@@ -13,19 +13,41 @@ body{
 }
 
 
-
-#bg-image{
-    background-image: url('https://lh3.googleusercontent.com/frKvaj2rFjCD9IYep0INyMwI8r_96P6GcZP3IHWF45M-uFaopZU97IvVFRN9eiM4e9g395BZPnLuKRwei4V8=w1920-h913-rw');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #212d5d;
-    height: 100vh;
-    width: 100w;
-    display: flex;
-    align-items: center;
-    padding: 0 10em;
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
+ 
+.texto-encima{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-60%, -60%);
+
+    color: #3260aa;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #3260aa;
+    font-size: 5.625rem;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin: auto;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
 
 .pto{
         padding: 1em;
