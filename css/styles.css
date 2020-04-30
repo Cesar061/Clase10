@@ -22,8 +22,8 @@ body{
 .texto-encima{
     position: absolute;
     top: 95%;
-    left: 56%;
-    transform: translate(-95%, -56%);
+    left: 57%;
+    transform: translate(-95%, -57%);
 
     color: #3260aa;
     font-family: 'Fredoka One', cursive;
