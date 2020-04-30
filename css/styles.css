@@ -21,16 +21,16 @@ body{
  
 .texto-encima{
     position: absolute;
-    top: 60%;
-    left: 52%;
-    transform: translate(-60%, -60%);
+    top: 95%;
+    left: 56%;
+    transform: translate(-95%, -56%);
 
     color: #3260aa;
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 10px;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
 }
 .centrado{
